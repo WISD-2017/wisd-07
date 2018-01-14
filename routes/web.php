@@ -23,3 +23,6 @@ Route::get('/aa/a1', function () {
 Route::get('/search/searchend', function () {
     return view('search.searchend');
 });
+Route::get('/search/searchpost', function () {
+    return view('search.searchpost');
+});
