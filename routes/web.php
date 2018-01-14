@@ -27,3 +27,7 @@ Route::get('/booking/bookingsearch', function () {
 Route::get('/booking/bookingcancel', function () {
     return view('bookingcancel');
 });
+
+Route::get('/booking/test', function () {
+      return view('test');
+ });
