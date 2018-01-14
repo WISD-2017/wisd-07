@@ -20,3 +20,10 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/aa/a1', function () {
    return view('aa.a1');
 });
+
+Route::get('/booking/bookingsearch', function () {
+    return view('bookingsearch');
+});
+Route::get('/booking/bookingcancel', function () {
+    return view('bookingcancel');
+});
